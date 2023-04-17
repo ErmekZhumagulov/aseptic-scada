@@ -10066,7 +10066,7 @@
       <property name="geometry">
        <rect>
         <x>1110</x>
-        <y>585</y>
+        <y>594</y>
         <width>16</width>
         <height>31</height>
        </rect>
@@ -11393,7 +11393,7 @@
       <property name="geometry">
        <rect>
         <x>1149</x>
-        <y>778</y>
+        <y>774</y>
         <width>31</width>
         <height>41</height>
        </rect>
@@ -11409,7 +11409,7 @@
       <property name="geometry">
        <rect>
         <x>1155</x>
-        <y>811</y>
+        <y>813</y>
         <width>16</width>
         <height>31</height>
        </rect>
@@ -12530,38 +12530,6 @@
       </property>
       <property name="midLineWidth">
        <number>0</number>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_186">
-      <property name="geometry">
-       <rect>
-        <x>1210</x>
-        <y>500</y>
-        <width>41</width>
-        <height>61</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="pixmap">
-       <pixmap>pics/Screenshot_86.png</pixmap>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_187">
-      <property name="geometry">
-       <rect>
-        <x>1210</x>
-        <y>730</y>
-        <width>41</width>
-        <height>61</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="pixmap">
-       <pixmap>pics/Screenshot_86.png</pixmap>
       </property>
      </widget>
      <widget class="QFrame" name="frame_319">
@@ -13847,8 +13815,8 @@
      <widget class="QLabel" name="label_233">
       <property name="geometry">
        <rect>
-        <x>1100</x>
-        <y>580</y>
+        <x>1112</x>
+        <y>584</y>
         <width>16</width>
         <height>21</height>
        </rect>
@@ -13863,8 +13831,8 @@
      <widget class="QLabel" name="label_234">
       <property name="geometry">
        <rect>
-        <x>1140</x>
-        <y>810</y>
+        <x>1157</x>
+        <y>805</y>
         <width>16</width>
         <height>21</height>
        </rect>
@@ -14253,6 +14221,1711 @@
        <number>0</number>
       </property>
      </widget>
+     <widget class="QLabel" name="label_237">
+      <property name="geometry">
+       <rect>
+        <x>1206</x>
+        <y>495</y>
+        <width>41</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>pics/Screenshot_81.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_238">
+      <property name="geometry">
+       <rect>
+        <x>1206</x>
+        <y>725</y>
+        <width>41</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>pics/Screenshot_81.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_186">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>121</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>TO NEUTRALIZATION</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_187">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>121</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>TO NEUTRALIZATION</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_239">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>80</y>
+        <width>121</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>TO NEUTRALIZATION</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_240">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>120</y>
+        <width>41</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V705</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_241">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>129</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V706</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_242">
+      <property name="geometry">
+       <rect>
+        <x>146</x>
+        <y>60</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V707</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_243">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>0</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V708</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_244">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>110</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V703</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_245">
+      <property name="geometry">
+       <rect>
+        <x>760</x>
+        <y>110</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V704</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_246">
+      <property name="geometry">
+       <rect>
+        <x>1490</x>
+        <y>3</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>TO ASEPTIC</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_247">
+      <property name="geometry">
+       <rect>
+        <x>1564</x>
+        <y>8</y>
+        <width>31</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>FLEX</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_248">
+      <property name="geometry">
+       <rect>
+        <x>1340</x>
+        <y>160</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>DISINF.</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_249">
+      <property name="geometry">
+       <rect>
+        <x>1260</x>
+        <y>130</y>
+        <width>41</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>M9</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_250">
+      <property name="geometry">
+       <rect>
+        <x>1210</x>
+        <y>141</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>CV9</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_251">
+      <property name="geometry">
+       <rect>
+        <x>1030</x>
+        <y>150</y>
+        <width>31</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>T9</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_252">
+      <property name="geometry">
+       <rect>
+        <x>1060</x>
+        <y>220</y>
+        <width>71</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>CHEM.</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_253">
+      <property name="geometry">
+       <rect>
+        <x>1060</x>
+        <y>230</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>DISINF.</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_254">
+      <property name="geometry">
+       <rect>
+        <x>850</x>
+        <y>160</y>
+        <width>31</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>T4</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_255">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>159</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>T2</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_256">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>170</y>
+        <width>31</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>T3</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_257">
+      <property name="geometry">
+       <rect>
+        <x>880</x>
+        <y>220</y>
+        <width>71</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>RINSE</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_258">
+      <property name="geometry">
+       <rect>
+        <x>880</x>
+        <y>230</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>WATER</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_259">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>220</y>
+        <width>71</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>ACID</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_260">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>220</y>
+        <width>61</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>LYE</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_261">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>300</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>WATER</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_262">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>360</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V100</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_263">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>390</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V111</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_264">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>460</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>T1</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_265">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>520</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V101</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_266">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>755</y>
+        <width>41</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V101</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_267">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>600</y>
+        <width>41</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V100</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_268">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>700</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>T1</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_269">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>540</y>
+        <width>41</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>WATER</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_270">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>630</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V111</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_271">
+      <property name="geometry">
+       <rect>
+        <x>253</x>
+        <y>330</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V119</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_272">
+      <property name="geometry">
+       <rect>
+        <x>303</x>
+        <y>330</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V114</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_273">
+      <property name="geometry">
+       <rect>
+        <x>353</x>
+        <y>330</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V112</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_274">
+      <property name="geometry">
+       <rect>
+        <x>423</x>
+        <y>330</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V113</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_275">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>460</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V103</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_276">
+      <property name="geometry">
+       <rect>
+        <x>414</x>
+        <y>570</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V113</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_277">
+      <property name="geometry">
+       <rect>
+        <x>294</x>
+        <y>570</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V114</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_278">
+      <property name="geometry">
+       <rect>
+        <x>344</x>
+        <y>570</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V112</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_279">
+      <property name="geometry">
+       <rect>
+        <x>244</x>
+        <y>570</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V119</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_280">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>690</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V103</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_281">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>800</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V700</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_282">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>790</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V701</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_283">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>790</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V702</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_284">
+      <property name="geometry">
+       <rect>
+        <x>910</x>
+        <y>790</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>P140-20</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_285">
+      <property name="geometry">
+       <rect>
+        <x>650</x>
+        <y>690</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V102</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_286">
+      <property name="geometry">
+       <rect>
+        <x>820</x>
+        <y>690</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V104</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_287">
+      <property name="geometry">
+       <rect>
+        <x>950</x>
+        <y>690</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V109</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_288">
+      <property name="geometry">
+       <rect>
+        <x>1012</x>
+        <y>460</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V109</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_289">
+      <property name="geometry">
+       <rect>
+        <x>680</x>
+        <y>470</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V102</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_290">
+      <property name="geometry">
+       <rect>
+        <x>860</x>
+        <y>470</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V104</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_291">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>380</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>CV3</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_292">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>380</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>M3</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_293">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>400</y>
+        <width>31</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>LYE</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_294">
+      <property name="geometry">
+       <rect>
+        <x>680</x>
+        <y>420</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>CV2</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_295">
+      <property name="geometry">
+       <rect>
+        <x>740</x>
+        <y>410</y>
+        <width>41</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>M2</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_296">
+      <property name="geometry">
+       <rect>
+        <x>780</x>
+        <y>420</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>ACID</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_297">
+      <property name="geometry">
+       <rect>
+        <x>1060</x>
+        <y>520</y>
+        <width>41</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>M1</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_298">
+      <property name="geometry">
+       <rect>
+        <x>1130</x>
+        <y>510</y>
+        <width>41</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V134</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_299">
+      <property name="geometry">
+       <rect>
+        <x>1200</x>
+        <y>480</y>
+        <width>41</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>PHE 1</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_300">
+      <property name="geometry">
+       <rect>
+        <x>1080</x>
+        <y>400</y>
+        <width>41</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V151</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_301">
+      <property name="geometry">
+       <rect>
+        <x>1350</x>
+        <y>350</y>
+        <width>41</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V150</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_302">
+      <property name="geometry">
+       <rect>
+        <x>1430</x>
+        <y>350</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>CIP RETURN</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_303">
+      <property name="geometry">
+       <rect>
+        <x>1410</x>
+        <y>440</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>LINE A</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_304">
+      <property name="geometry">
+       <rect>
+        <x>1340</x>
+        <y>420</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V138</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_305">
+      <property name="geometry">
+       <rect>
+        <x>1280</x>
+        <y>550</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V136</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_306">
+      <property name="geometry">
+       <rect>
+        <x>1330</x>
+        <y>550</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V135</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_307">
+      <property name="geometry">
+       <rect>
+        <x>1430</x>
+        <y>480</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>CIP PRESSURE</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_308">
+      <property name="geometry">
+       <rect>
+        <x>1430</x>
+        <y>520</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>STEAM</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_309">
+      <property name="geometry">
+       <rect>
+        <x>1340</x>
+        <y>470</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V139</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_310">
+      <property name="geometry">
+       <rect>
+        <x>1060</x>
+        <y>560</y>
+        <width>41</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V137</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_311">
+      <property name="geometry">
+       <rect>
+        <x>1370</x>
+        <y>600</y>
+        <width>41</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V150</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_312">
+      <property name="geometry">
+       <rect>
+        <x>1430</x>
+        <y>600</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>CIP RETURN</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_313">
+      <property name="geometry">
+       <rect>
+        <x>1430</x>
+        <y>710</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>CIP PRESSURE</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_314">
+      <property name="geometry">
+       <rect>
+        <x>1430</x>
+        <y>750</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>STEAM</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_315">
+      <property name="geometry">
+       <rect>
+        <x>1340</x>
+        <y>660</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V138</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_316">
+      <property name="geometry">
+       <rect>
+        <x>1410</x>
+        <y>670</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>LINE B</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_317">
+      <property name="geometry">
+       <rect>
+        <x>1130</x>
+        <y>740</y>
+        <width>41</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V134</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_318">
+      <property name="geometry">
+       <rect>
+        <x>1070</x>
+        <y>750</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>M1</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_319">
+      <property name="geometry">
+       <rect>
+        <x>1330</x>
+        <y>780</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V135</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_320">
+      <property name="geometry">
+       <rect>
+        <x>1080</x>
+        <y>630</y>
+        <width>41</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V151</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_321">
+      <property name="geometry">
+       <rect>
+        <x>1200</x>
+        <y>710</y>
+        <width>41</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>PHE 1</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_322">
+      <property name="geometry">
+       <rect>
+        <x>1110</x>
+        <y>790</y>
+        <width>41</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V137</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_323">
+      <property name="geometry">
+       <rect>
+        <x>1280</x>
+        <y>780</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V136</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_324">
+      <property name="geometry">
+       <rect>
+        <x>1340</x>
+        <y>700</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>V139</string>
+      </property>
+     </widget>
+     <zorder>frame_302</zorder>
      <zorder>frame_315</zorder>
      <zorder>label_184</zorder>
      <zorder>frame_301</zorder>
@@ -14526,7 +16199,6 @@
      <zorder>label_158</zorder>
      <zorder>label_159</zorder>
      <zorder>label_160</zorder>
-     <zorder>frame_302</zorder>
      <zorder>label_161</zorder>
      <zorder>label_162</zorder>
      <zorder>frame_306</zorder>
@@ -14560,8 +16232,6 @@
      <zorder>label_180</zorder>
      <zorder>label_183</zorder>
      <zorder>label_182</zorder>
-     <zorder>label_186</zorder>
-     <zorder>label_187</zorder>
      <zorder>frame_319</zorder>
      <zorder>frame_320</zorder>
      <zorder>frame_321</zorder>
@@ -14627,6 +16297,96 @@
      <zorder>frame_332</zorder>
      <zorder>frame_333</zorder>
      <zorder>frame_334</zorder>
+     <zorder>label_237</zorder>
+     <zorder>label_238</zorder>
+     <zorder>label_186</zorder>
+     <zorder>label_187</zorder>
+     <zorder>label_239</zorder>
+     <zorder>label_240</zorder>
+     <zorder>label_241</zorder>
+     <zorder>label_242</zorder>
+     <zorder>label_243</zorder>
+     <zorder>label_244</zorder>
+     <zorder>label_245</zorder>
+     <zorder>label_246</zorder>
+     <zorder>label_247</zorder>
+     <zorder>label_248</zorder>
+     <zorder>label_249</zorder>
+     <zorder>label_250</zorder>
+     <zorder>label_251</zorder>
+     <zorder>label_252</zorder>
+     <zorder>label_253</zorder>
+     <zorder>label_254</zorder>
+     <zorder>label_255</zorder>
+     <zorder>label_256</zorder>
+     <zorder>label_257</zorder>
+     <zorder>label_258</zorder>
+     <zorder>label_259</zorder>
+     <zorder>label_260</zorder>
+     <zorder>label_261</zorder>
+     <zorder>label_262</zorder>
+     <zorder>label_263</zorder>
+     <zorder>label_264</zorder>
+     <zorder>label_265</zorder>
+     <zorder>label_266</zorder>
+     <zorder>label_267</zorder>
+     <zorder>label_268</zorder>
+     <zorder>label_269</zorder>
+     <zorder>label_270</zorder>
+     <zorder>label_271</zorder>
+     <zorder>label_272</zorder>
+     <zorder>label_273</zorder>
+     <zorder>label_274</zorder>
+     <zorder>label_275</zorder>
+     <zorder>label_276</zorder>
+     <zorder>label_277</zorder>
+     <zorder>label_278</zorder>
+     <zorder>label_279</zorder>
+     <zorder>label_280</zorder>
+     <zorder>label_281</zorder>
+     <zorder>label_282</zorder>
+     <zorder>label_283</zorder>
+     <zorder>label_284</zorder>
+     <zorder>label_285</zorder>
+     <zorder>label_286</zorder>
+     <zorder>label_287</zorder>
+     <zorder>label_288</zorder>
+     <zorder>label_289</zorder>
+     <zorder>label_290</zorder>
+     <zorder>label_291</zorder>
+     <zorder>label_292</zorder>
+     <zorder>label_293</zorder>
+     <zorder>label_294</zorder>
+     <zorder>label_295</zorder>
+     <zorder>label_296</zorder>
+     <zorder>label_297</zorder>
+     <zorder>label_298</zorder>
+     <zorder>label_299</zorder>
+     <zorder>label_300</zorder>
+     <zorder>label_301</zorder>
+     <zorder>label_302</zorder>
+     <zorder>label_303</zorder>
+     <zorder>label_304</zorder>
+     <zorder>label_305</zorder>
+     <zorder>label_306</zorder>
+     <zorder>label_307</zorder>
+     <zorder>label_308</zorder>
+     <zorder>label_309</zorder>
+     <zorder>label_310</zorder>
+     <zorder>label_311</zorder>
+     <zorder>label_312</zorder>
+     <zorder>label_313</zorder>
+     <zorder>label_314</zorder>
+     <zorder>label_315</zorder>
+     <zorder>label_316</zorder>
+     <zorder>label_317</zorder>
+     <zorder>label_318</zorder>
+     <zorder>label_319</zorder>
+     <zorder>label_320</zorder>
+     <zorder>label_321</zorder>
+     <zorder>label_322</zorder>
+     <zorder>label_323</zorder>
+     <zorder>label_324</zorder>
     </widget>
     <widget class="QWidget" name="tab_2">
      <attribute name="title">
