@@ -1,2 +1,5 @@
 .idea
 venv
+scheme
+backups
+__pycache__
