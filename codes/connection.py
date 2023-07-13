@@ -13,6 +13,7 @@ def setup_serial_connection(form):
         client.connect()
     except Exception as e:
         client.reconnect()
+        print("reconnecting to plc -/-/-")
 
     def update_label_407():
         form.label_407.setText(str(client.read_integer(start=1, total_int=1)[0]))
