@@ -2,10 +2,13 @@ from PyQt6 import uic
 from PyQt6.QtWidgets import QApplication, QMessageBox
 from PyQt6.QtCore import QTimer
 
+import time
+from functools import partial
+
 from codes import labels_toggling
 from codes import switching_tabs
 from codes import switching_btns
-from codes import connection
+from codes import tag_reading
 
 import serial
 from df1.models.df1_serial_client import Df1SerialClient
@@ -42,12 +45,11 @@ def reconnect_to_plc():
     global client
     while client is None:  # Keep attempting to reconnect until successful
         try:
+            time.sleep(1)
+            print("try-----------------------------------------------------------------------------")
             connect_to_plc()
         except KeyboardInterrupt:
             app.quit()  # Exit the application if interrupted by the user
-
-def update_label_407():
-    form.label_407.setText(str(client.read_integer(start=1, total_int=1)[0]))
 
 def on_close():
     if client is not None:
@@ -63,8 +65,8 @@ if __name__ == '__main__':
     switching_btns.switch_logic(form)
     labels_toggling.switch_logic(form)
 
-    # reconnect_to_plc()  # Start the initial connection process
+    reconnect_to_plc()  # Start the initial connection process
 
-    timer.timeout.connect(update_label_407)  # Connect the timer to the update_label_407 function
+    timer.timeout.connect(partial(tag_reading.update_label_407, client, form))
 
     app.exec()
