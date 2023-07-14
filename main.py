@@ -68,5 +68,11 @@ if __name__ == '__main__':
     reconnect_to_plc()  # Start the initial connection process
 
     timer.timeout.connect(partial(tag_reading.update_label_407, client, form))
+    timer.timeout.connect(partial(tag_reading.update_label_67, client, form))
+    timer.timeout.connect(partial(tag_reading.update_label_68, client, form))
+    timer.timeout.connect(partial(tag_reading.update_label_69, client, form))
+    timer.timeout.connect(partial(tag_reading.update_label_72, client, form))
+    timer.timeout.connect(partial(tag_reading.update_label_70, client, form))
+    timer.timeout.connect(partial(tag_reading.update_label_71, client, form))
 
     app.exec()
