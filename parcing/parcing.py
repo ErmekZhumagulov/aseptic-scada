@@ -5,8 +5,6 @@ from PyQt6.QtCore import QTimer
 import time
 from functools import partial
 
-import parcing_tags
-
 import serial
 from df1.models.df1_serial_client import Df1SerialClient
 
@@ -55,15 +53,39 @@ def on_close():
     app.quit()
 
 def on_text_changed():
-    text = form.textEdit.toPlainText()
-    print(text)
+    try:
+        interim = form.textEdit.toPlainText()
+        interim_int = int(interim)
+        print(interim_int)
+
+        values_list = [i for i in range(interim_int)]
+        # values_list = client.read_integer(file_table=interim_int, start=0, total_int=300)
+        values_array = list(map(int, values_list))
+
+        try:
+            for i in range(300):
+                setValues = "form.label_" + str(i) + ".setText(str(values_array[" + str(i) + "]))"
+                eval(setValues)
+        except IndexError:
+            print('IndexError')
+    except ValueError:
+        print('ValueError')
+
+def reset_values():
+    for i in range(300):
+        text = "NO DATA"
+        setToNoData = "form.label_" + str(i) + ".setText(text)"
+        eval(setToNoData)
+
+
 
 if __name__ == '__main__':
     app.aboutToQuit.connect(on_close)
 
     # reconnect_to_plc()  # Start the initial connection process
-    # timer.timeout.connect(partial(parcing_tags.update_labels, client, form))
+    # timer.timeout.connect(on_text_changed)
 
     form.pushButton.clicked.connect(on_text_changed)
+    form.pushButton_2.clicked.connect(reset_values)
 
     app.exec()
