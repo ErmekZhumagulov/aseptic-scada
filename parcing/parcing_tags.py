@@ -1,5 +1,5 @@
 def update_labels(client, form):
-    n190_195_list = client.read_integer(file_table=29, start=190, total_int=6)
+    n190_195_list = client.read_integer(file_table=29, start=0, total_int=6)
     n190_195_array = list(map(int, n190_195_list))
 
     form.label_67.setText(str(n190_195_array[0]/10))

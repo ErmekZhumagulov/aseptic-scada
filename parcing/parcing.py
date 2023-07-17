@@ -5,15 +5,12 @@ from PyQt6.QtCore import QTimer
 import time
 from functools import partial
 
-from codes import labels_toggling
-from codes import switching_tabs
-from codes import switching_btns
-from codes import tag_reading
+import parcing_tags
 
 import serial
 from df1.models.df1_serial_client import Df1SerialClient
 
-Form, Window = uic.loadUiType("ui.ui")
+Form, Window = uic.loadUiType("parcing.ui")
 
 app = QApplication([])
 window = Window()
@@ -57,16 +54,16 @@ def on_close():
         timer.stop()  # Stop the timer
     app.quit()
 
+def on_text_changed():
+    text = form.textEdit.toPlainText()
+    print(text)
+
 if __name__ == '__main__':
-    window.showFullScreen()
     app.aboutToQuit.connect(on_close)
 
-    switching_tabs.switch_logic(form)
-    switching_btns.switch_logic(form)
-    labels_toggling.switch_logic(form)
+    # reconnect_to_plc()  # Start the initial connection process
+    # timer.timeout.connect(partial(parcing_tags.update_labels, client, form))
 
-    reconnect_to_plc()  # Start the initial connection process
-
-    timer.timeout.connect(partial(tag_reading.update_labels, client, form))
+    form.pushButton.clicked.connect(on_text_changed)
 
     app.exec()
