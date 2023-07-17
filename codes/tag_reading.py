@@ -1,8 +1,11 @@
-def update_label_407(client, form):
-    form.label_407.setText(str(client.read_integer(start=1, total_int=1)[0]))
+def update_label_67_72(client, form):
+    n190_195_list = client.read_integer(file_table=29, start=190, total_int=6)
+    n190_195_array = list(map(int, n190_195_list))
 
-def update_label_67(client, form):
-    form.label_67.setText(str(int(client.read_integer(file_table=29, start=190, total_int=1)[0])/10))
+    form.label_67.setText(str(n190_195_array[0]/10))
+
+# def update_label_67(client, form):
+#     form.label_67.setText(str(int(client.read_integer(file_table=29, start=190, total_int=1)[0])/10))
 
 def update_label_68(client, form):
     form.label_68.setText(str(client.read_integer(file_table=29, start=191, total_int=1)[0]))
