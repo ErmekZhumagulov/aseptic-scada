@@ -19,7 +19,7 @@
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>1031</width>
+      <width>881</width>
       <height>681</height>
      </rect>
     </property>
@@ -6535,10 +6535,10 @@ border: 1px solid black;
      <widget class="QTextEdit" name="textEdit_2">
       <property name="geometry">
        <rect>
-        <x>690</x>
+        <x>730</x>
         <y>300</y>
-        <width>141</width>
-        <height>51</height>
+        <width>101</width>
+        <height>31</height>
        </rect>
       </property>
      </widget>
@@ -6546,13 +6546,49 @@ border: 1px solid black;
       <property name="geometry">
        <rect>
         <x>690</x>
-        <y>360</y>
+        <y>380</y>
         <width>141</width>
         <height>51</height>
        </rect>
       </property>
       <property name="text">
        <string>Push</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_430">
+      <property name="geometry">
+       <rect>
+        <x>690</x>
+        <y>290</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>from:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_431">
+      <property name="geometry">
+       <rect>
+        <x>690</x>
+        <y>330</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>to:</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_3">
+      <property name="geometry">
+       <rect>
+        <x>730</x>
+        <y>340</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
       </property>
      </widget>
     </widget>
