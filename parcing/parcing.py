@@ -24,6 +24,8 @@ timer = QTimer()
 values_array = []
 values_list = []
 
+values_int_tags = []
+
 def connect_to_plc():
     global client
     try:
@@ -66,11 +68,37 @@ def on_text_changed():
         interim_int = int(interim)
         print(interim_int)
 
-        index = 300
+        index = 45
 
-        #values_list = [i for i in range(interim_int)]
+        for i in range(300):
+            if i != None:
+                values_int_tags.append(client.read_integer(file_table=interim_int, start=i, total_int=1)[0])
+            else:
+                break
+        print("amount of tags in values_int_tags:", len(values_int_tags))
+
+        # while i != None:
+        #     values.append(client.read_integer(file_table=interim_int, start=t, total_int=4)[0])
+        #     t+=1
+        # 
+        #     values.__len__()
+
+        # values_list = [i for i in range(interim_int)]
         values_list = [random.randint(0, 1000) for _ in range(100)]
         # values_list = client.read_integer(file_table=interim_int, start=0, total_int=index)
+        # while True:
+        #     try:
+        #         print("breakpoint 1")
+        #         values_list = client.read_integer(file_table=interim_int, start=0, total_int=index)
+        #         # break  # No error occurred, break out of the loop
+        #         print('try - - - ed', values_list)
+        #     except IndexError as e:
+        #         print("IndexError - table is small --- ", e)
+        #         index -= 1  # Decrease index value by 1
+        #         print(index)
+        #     else:
+        #         print("break breakpoint")
+        #         break # No error occurred, break out of the loop
         try:
             print(values_list[index])
         except IndexError:

@@ -6516,7 +6516,7 @@ border: 1px solid black;
        </rect>
       </property>
       <property name="text">
-       <string>Reset table</string>
+       <string>Reset and upadting table</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_429">
