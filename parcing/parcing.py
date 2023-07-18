@@ -22,6 +22,7 @@ errorWindow = QMessageBox()
 client = None
 timer = QTimer()
 values_array = []
+values_list = []
 
 def connect_to_plc():
     global client
@@ -32,7 +33,7 @@ def connect_to_plc():
                                  stopbits=serial.STOPBITS_ONE, bytesize=serial.EIGHTBITS,
                                  timeout=5)
         client.connect()
-        timer.start(1000)  # Start the timer for updating label_407
+        # timer.start(1000)  # Start the timer for updating labels
     except Exception as e:
         print("Error connecting to PLC:", str(e))
         client = None
@@ -56,27 +57,43 @@ def on_close():
     app.quit()
 
 def on_text_changed():
+    timer.start(1000)  # Start the timer for updating labels
+
     global values_array
+    global values_list
     try:
         interim = form.textEdit.toPlainText()
         interim_int = int(interim)
         print(interim_int)
 
+        index = 300
+
         #values_list = [i for i in range(interim_int)]
-        values_list = [random.randint(0, 1000) for _ in range(300)]
-        # values_list = client.read_integer(file_table=interim_int, start=0, total_int=300)
-        values_array = list(map(int, values_list))
+        values_list = [random.randint(0, 1000) for _ in range(100)]
+        # values_list = client.read_integer(file_table=interim_int, start=0, total_int=index)
+        try:
+            print(values_list[index])
+        except IndexError:
+            missing_values = index - len(values_list) + 1
+            values_list.extend(["no data"] * missing_values)
+            print(values_list[index])
+        # values_array = list(map(int, values_list))
 
         try:
             for i in range(300):
-                setValues = "form.label_" + str(i) + ".setText(str(values_array[" + str(i) + "]))"
+                setValues = "form.label_" + str(i) + ".setText(str(values_list[" + str(i) + "]))"
                 eval(setValues)
-        except IndexError:
-            print('IndexError')
-    except ValueError:
-        print('ValueError')
+        except IndexError as e:
+            print('IndexError -----', e)
+
+            # while len(values_list) < index:
+            #     values_list.append('NO DATA 2')
+    except ValueError as e:
+        print('ValueError -----', e)
 
 def reset_values():
+    timer.stop()
+
     for i in range(300):
         text = "NO DATA"
         setToNoData = "form.label_" + str(i) + ".setText(text)"
@@ -97,9 +114,9 @@ def searching_value():
     consecutive_numbers = list(range(from_vl_int, to_vl_int + 1))
     consecutive_numbers_array = np.array(consecutive_numbers)
     print(consecutive_numbers_array)
-    print(values_array)
+    print(values_list)
 
-    indices = [i for i, element in enumerate(values_array) if element in consecutive_numbers_array]
+    indices = [i for i, element in enumerate(values_list) if element in consecutive_numbers_array]
 
     if indices:
         # Display the indexes where elements from array2 are found in array1
