@@ -4,6 +4,7 @@ from PyQt6.QtCore import QTimer
 
 import time
 import numpy as np
+import ctypes
 from functools import partial
 import random
 
@@ -23,8 +24,6 @@ client = None
 timer = QTimer()
 values_array = []
 values_list = []
-
-values_int_tags = []
 
 def connect_to_plc():
     global client
@@ -70,46 +69,51 @@ def on_text_changed():
 
         index = 45
 
+        # values_list = [i for i in range(interim_int)]
+        # values_list = [random.randint(0, 1000) for _ in range(100)]
+
         for i in range(300):
-            if i != None:
-                values_int_tags.append(client.read_integer(file_table=interim_int, start=i, total_int=1)[0])
-            else:
-                break
-        print("amount of tags in values_int_tags:", len(values_int_tags))
+            try:
+                values_list.append(client.read_integer(file_table=interim_int, start=i, total_int=1)[0])
+                print(values_list)
+                print("amount of tags in values_int_tags:", len(values_list))
+            except IndexError as e:
+                print("IndexError ---", e)
+            # if i != None:
+            #     values_list.append(client.read_integer(file_table=interim_int, start=i, total_int=1)[0])
+            #     print(values_list)
+            #     print("amount of tags in values_int_tags:", len(values_list))
+            # else:
+            #     break
+        print("------------------------------")
+        print(values_list)
+        print("amount of tags in values_int_tags:", len(values_list))
 
         # while i != None:
         #     values.append(client.read_integer(file_table=interim_int, start=t, total_int=4)[0])
         #     t+=1
-        # 
+        #
         #     values.__len__()
 
-        # values_list = [i for i in range(interim_int)]
-        values_list = [random.randint(0, 1000) for _ in range(100)]
-        # values_list = client.read_integer(file_table=interim_int, start=0, total_int=index)
-        # while True:
-        #     try:
-        #         print("breakpoint 1")
-        #         values_list = client.read_integer(file_table=interim_int, start=0, total_int=index)
-        #         # break  # No error occurred, break out of the loop
-        #         print('try - - - ed', values_list)
-        #     except IndexError as e:
-        #         print("IndexError - table is small --- ", e)
-        #         index -= 1  # Decrease index value by 1
-        #         print(index)
-        #     else:
-        #         print("break breakpoint")
-        #         break # No error occurred, break out of the loop
-        try:
-            print(values_list[index])
-        except IndexError:
-            missing_values = index - len(values_list) + 1
-            values_list.extend(["no data"] * missing_values)
-            print(values_list[index])
-        # values_array = list(map(int, values_list))
+        # try:
+        #     print(values_list[index])
+        # except IndexError:
+        #     missing_values = index - len(values_list) + 1
+        #     values_list.extend(["no data"] * missing_values)
+        #     print(values_list[index])
+
+        values_array = list(map(int, values_list))
+
+        values_array_signed = []
+        for i in values_array:
+            signed_value = ctypes.c_int16(i).value
+            values_array_signed.append(signed_value)
+
+        print(values_array_signed)
 
         try:
             for i in range(300):
-                setValues = "form.label_" + str(i) + ".setText(str(values_list[" + str(i) + "]))"
+                setValues = "form.label_" + str(i) + ".setText(str(values_array_signed[" + str(i) + "]))"
                 eval(setValues)
         except IndexError as e:
             print('IndexError -----', e)
@@ -162,8 +166,8 @@ def searching_value():
 if __name__ == '__main__':
     app.aboutToQuit.connect(on_close)
 
-    # reconnect_to_plc()  # Start the initial connection process
-    # timer.timeout.connect(on_text_changed)
+    reconnect_to_plc()  # Start the initial connection process
+    timer.timeout.connect(on_text_changed)
 
     form.pushButton.clicked.connect(on_text_changed)
     form.pushButton_2.clicked.connect(reset_values)
