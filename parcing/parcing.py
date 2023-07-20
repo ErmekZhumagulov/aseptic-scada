@@ -82,6 +82,7 @@ def on_text_changed():
                 values_list.append(client.read_integer(file_table=interim_int, start=i, total_int=1)[0])
                 print(values_list)
                 print("amount of tags in values_int_tags:", len(values_list))
+                time.sleep(0.01)
             except IndexError as e:
                 print("IndexError ---", e)
                 break
@@ -131,11 +132,11 @@ def on_text_changed():
     except ValueError as e:
         print('ValueError -----', e)
 
-def updating_table():
+def updating_table_signed():
     global array_len
     global interim_int
 
-    timer.start(1000)  # Start the timer for updating labels
+    timer.start(100)  # Start the timer for updating labels
 
     print(array_len)
     print(interim_int)
@@ -157,6 +158,41 @@ def updating_table():
         try:
             for i in range(array_len):
                 setValues = "form.label_" + str(i) + ".setText(str(values_array_signed[" + str(i) + "]))"
+                eval(setValues)
+        except IndexError as e:
+            print('IndexError -----', e)
+
+            # while len(values_list) < index:
+            #     values_list.append('NO DATA 2')
+    except ValueError as e:
+        print('ValueError -----', e)
+
+def updating_table_unsigned():
+    global array_len
+    global interim_int
+
+    timer.start(100)  # Start the timer for updating labels
+
+    print(array_len)
+    print(interim_int)
+
+    try:
+        values_list_update = client.read_integer(file_table=interim_int, start=0, total_int=array_len)
+
+        values_array_update = list(map(int, values_list_update))
+
+        # values_array_signed = []
+        # for i in values_array_update:
+        #     signed_value = ctypes.c_int16(i).value
+        #     values_array_signed.append(signed_value)
+
+        # print(values_array_signed)
+
+        array_len = len(values_array_update)
+
+        try:
+            for i in range(array_len):
+                setValues = "form.label_" + str(i) + ".setText(str(values_array_update[" + str(i) + "]))"
                 eval(setValues)
         except IndexError as e:
             print('IndexError -----', e)
@@ -215,6 +251,7 @@ if __name__ == '__main__':
     form.pushButton.clicked.connect(on_text_changed)
     form.pushButton_2.clicked.connect(reset_values)
     form.pushButton_3.clicked.connect(searching_value)
-    form.pushButton_4.clicked.connect(updating_table)
+    form.pushButton_4.clicked.connect(updating_table_signed)
+    form.pushButton_5.clicked.connect(updating_table_unsigned)
 
     app.exec()
