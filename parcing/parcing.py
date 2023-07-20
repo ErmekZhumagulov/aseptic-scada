@@ -24,6 +24,8 @@ client = None
 timer = QTimer()
 values_array = []
 values_list = []
+array_len = None
+interim_int = None
 
 def connect_to_plc():
     global client
@@ -58,19 +60,22 @@ def on_close():
     app.quit()
 
 def on_text_changed():
-    timer.start(1000)  # Start the timer for updating labels
-
     global values_array
     global values_list
+    global array_len
+    global interim_int
     try:
         interim = form.textEdit.toPlainText()
         interim_int = int(interim)
         print(interim_int)
 
-        index = 45
+        index = 300
 
         # values_list = [i for i in range(interim_int)]
         # values_list = [random.randint(0, 1000) for _ in range(100)]
+
+        values_array = []
+        values_list = []
 
         for i in range(300):
             try:
@@ -79,6 +84,7 @@ def on_text_changed():
                 print("amount of tags in values_int_tags:", len(values_list))
             except IndexError as e:
                 print("IndexError ---", e)
+                break
             # if i != None:
             #     values_list.append(client.read_integer(file_table=interim_int, start=i, total_int=1)[0])
             #     print(values_list)
@@ -86,7 +92,7 @@ def on_text_changed():
             # else:
             #     break
         print("------------------------------")
-        print(values_list)
+        print("after itteration --- ", values_list)
         print("amount of tags in values_int_tags:", len(values_list))
 
         # while i != None:
@@ -111,8 +117,45 @@ def on_text_changed():
 
         print(values_array_signed)
 
+        array_len = len(values_array_signed)
+
         try:
-            for i in range(300):
+            for i in range(array_len):
+                setValues = "form.label_" + str(i) + ".setText(str(values_array_signed[" + str(i) + "]))"
+                eval(setValues)
+        except IndexError as e:
+            print('IndexError -----', e)
+
+            # while len(values_list) < index:
+            #     values_list.append('NO DATA 2')
+    except ValueError as e:
+        print('ValueError -----', e)
+
+def updating_table():
+    global array_len
+    global interim_int
+
+    timer.start(1000)  # Start the timer for updating labels
+
+    print(array_len)
+    print(interim_int)
+
+    try:
+        values_list_update = client.read_integer(file_table=interim_int, start=0, total_int=array_len)
+
+        values_array_update = list(map(int, values_list_update))
+
+        values_array_signed = []
+        for i in values_array_update:
+            signed_value = ctypes.c_int16(i).value
+            values_array_signed.append(signed_value)
+
+        print(values_array_signed)
+
+        array_len = len(values_array_signed)
+
+        try:
+            for i in range(array_len):
                 setValues = "form.label_" + str(i) + ".setText(str(values_array_signed[" + str(i) + "]))"
                 eval(setValues)
         except IndexError as e:
@@ -172,5 +215,6 @@ if __name__ == '__main__':
     form.pushButton.clicked.connect(on_text_changed)
     form.pushButton_2.clicked.connect(reset_values)
     form.pushButton_3.clicked.connect(searching_value)
+    form.pushButton_4.clicked.connect(updating_table)
 
     app.exec()
