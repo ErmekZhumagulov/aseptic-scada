@@ -33,7 +33,7 @@
      <string notr="true"/>
     </property>
     <property name="currentIndex">
-     <number>2</number>
+     <number>6</number>
     </property>
     <widget class="QWidget" name="tab_1">
      <attribute name="title">
@@ -16437,61 +16437,6 @@
      <zorder>pushButton</zorder>
      <zorder>label</zorder>
     </widget>
-    <widget class="QWidget" name="tab">
-     <attribute name="title">
-      <string>testing connections</string>
-     </attribute>
-     <widget class="QLabel" name="label_407">
-      <property name="geometry">
-       <rect>
-        <x>60</x>
-        <y>90</y>
-        <width>131</width>
-        <height>61</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>14</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: white;
-border: 1px solid black;
-</string>
-      </property>
-      <property name="text">
-       <string>TextLabel</string>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_408">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>60</y>
-        <width>171</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>14</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true"/>
-      </property>
-      <property name="text">
-       <string>Testing connection</string>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-      </property>
-     </widget>
-    </widget>
     <widget class="QWidget" name="tab_2">
      <attribute name="title">
       <string>TETRA ALCIP</string>
@@ -30243,7 +30188,7 @@ border: 0px solid black;</string>
      <widget class="QLabel" name="label_476">
       <property name="geometry">
        <rect>
-        <x>980</x>
+        <x>990</x>
         <y>440</y>
         <width>41</width>
         <height>21</height>
@@ -30262,7 +30207,7 @@ border: 0px solid black;</string>
      <widget class="QLabel" name="label_477">
       <property name="geometry">
        <rect>
-        <x>370</x>
+        <x>379</x>
         <y>210</y>
         <width>31</width>
         <height>21</height>
@@ -30278,7 +30223,7 @@ border: 0px solid black;</string>
      <widget class="QFrame" name="frame_403">
       <property name="geometry">
        <rect>
-        <x>320</x>
+        <x>330</x>
         <y>290</y>
         <width>101</width>
         <height>20</height>
@@ -30337,7 +30282,7 @@ border: 0px solid black;</string>
      <widget class="QLabel" name="label_478">
       <property name="geometry">
        <rect>
-        <x>690</x>
+        <x>700</x>
         <y>390</y>
         <width>91</width>
         <height>31</height>
@@ -30363,7 +30308,7 @@ border: 1px solid black;
      <widget class="QLabel" name="label_479">
       <property name="geometry">
        <rect>
-        <x>540</x>
+        <x>550</x>
         <y>200</y>
         <width>91</width>
         <height>31</height>
@@ -30389,7 +30334,7 @@ border: 1px solid black;
      <widget class="QFrame" name="frame_404">
       <property name="geometry">
        <rect>
-        <x>450</x>
+        <x>460</x>
         <y>260</y>
         <width>20</width>
         <height>81</height>
@@ -30445,7 +30390,7 @@ border: 1px solid black;
      <widget class="QFrame" name="frame_405">
       <property name="geometry">
        <rect>
-        <x>370</x>
+        <x>380</x>
         <y>170</y>
         <width>20</width>
         <height>81</height>
@@ -30501,7 +30446,7 @@ border: 1px solid black;
      <widget class="QLabel" name="label_480">
       <property name="geometry">
        <rect>
-        <x>640</x>
+        <x>650</x>
         <y>120</y>
         <width>61</width>
         <height>31</height>
@@ -30525,7 +30470,7 @@ border: 1px solid black;
      <widget class="QLabel" name="label_481">
       <property name="geometry">
        <rect>
-        <x>460</x>
+        <x>470</x>
         <y>440</y>
         <width>41</width>
         <height>21</height>
@@ -30544,7 +30489,7 @@ border: 1px solid black;
      <widget class="QPushButton" name="pushButton_170">
       <property name="geometry">
        <rect>
-        <x>870</x>
+        <x>880</x>
         <y>503</y>
         <width>31</width>
         <height>31</height>
@@ -30571,7 +30516,7 @@ border: 0px solid black;</string>
      <widget class="QFrame" name="frame_406">
       <property name="geometry">
        <rect>
-        <x>690</x>
+        <x>700</x>
         <y>522</y>
         <width>20</width>
         <height>31</height>
@@ -30627,7 +30572,7 @@ border: 0px solid black;</string>
      <widget class="QPushButton" name="pushButton_171">
       <property name="geometry">
        <rect>
-        <x>830</x>
+        <x>840</x>
         <y>360</y>
         <width>41</width>
         <height>21</height>
@@ -30644,7 +30589,7 @@ border: 1px solid black;</string>
      <widget class="QFrame" name="frame_407">
       <property name="geometry">
        <rect>
-        <x>430</x>
+        <x>440</x>
         <y>170</y>
         <width>20</width>
         <height>71</height>
@@ -30700,7 +30645,7 @@ border: 1px solid black;</string>
      <widget class="QLabel" name="label_482">
       <property name="geometry">
        <rect>
-        <x>640</x>
+        <x>650</x>
         <y>390</y>
         <width>61</width>
         <height>31</height>
@@ -30724,7 +30669,7 @@ border: 1px solid black;</string>
      <widget class="QFrame" name="frame_408">
       <property name="geometry">
        <rect>
-        <x>340</x>
+        <x>350</x>
         <y>170</y>
         <width>20</width>
         <height>81</height>
@@ -30780,7 +30725,7 @@ border: 1px solid black;</string>
      <widget class="QLabel" name="label_483">
       <property name="geometry">
        <rect>
-        <x>540</x>
+        <x>550</x>
         <y>500</y>
         <width>91</width>
         <height>31</height>
@@ -30806,7 +30751,7 @@ border: 1px solid black;
      <widget class="QLabel" name="label_484">
       <property name="geometry">
        <rect>
-        <x>860</x>
+        <x>870</x>
         <y>200</y>
         <width>41</width>
         <height>21</height>
@@ -30825,7 +30770,7 @@ border: 1px solid black;
      <widget class="QPushButton" name="pushButton_172">
       <property name="geometry">
        <rect>
-        <x>360</x>
+        <x>370</x>
         <y>120</y>
         <width>41</width>
         <height>41</height>
@@ -30853,7 +30798,7 @@ border: 0px solid black;
      <widget class="QLabel" name="label_485">
       <property name="geometry">
        <rect>
-        <x>640</x>
+        <x>650</x>
         <y>200</y>
         <width>61</width>
         <height>31</height>
@@ -30877,7 +30822,7 @@ border: 0px solid black;
      <widget class="QLabel" name="label_486">
       <property name="geometry">
        <rect>
-        <x>623</x>
+        <x>633</x>
         <y>458</y>
         <width>16</width>
         <height>21</height>
@@ -30893,7 +30838,7 @@ border: 0px solid black;
      <widget class="QLabel" name="label_487">
       <property name="geometry">
        <rect>
-        <x>893</x>
+        <x>903</x>
         <y>458</y>
         <width>16</width>
         <height>21</height>
@@ -30909,7 +30854,7 @@ border: 0px solid black;
      <widget class="QPushButton" name="pushButton_173">
       <property name="geometry">
        <rect>
-        <x>1036</x>
+        <x>1046</x>
         <y>460</y>
         <width>41</width>
         <height>41</height>
@@ -30937,7 +30882,7 @@ border: 0px solid black;
      <widget class="QLabel" name="label_488">
       <property name="geometry">
        <rect>
-        <x>930</x>
+        <x>940</x>
         <y>530</y>
         <width>41</width>
         <height>21</height>
@@ -30956,7 +30901,7 @@ border: 0px solid black;
      <widget class="QLabel" name="label_489">
       <property name="geometry">
        <rect>
-        <x>570</x>
+        <x>580</x>
         <y>360</y>
         <width>41</width>
         <height>21</height>
@@ -30975,7 +30920,7 @@ border: 0px solid black;
      <widget class="QLabel" name="label_490">
       <property name="geometry">
        <rect>
-        <x>623</x>
+        <x>633</x>
         <y>228</y>
         <width>16</width>
         <height>21</height>
@@ -30991,7 +30936,7 @@ border: 0px solid black;
      <widget class="QLabel" name="label_491">
       <property name="geometry">
        <rect>
-        <x>813</x>
+        <x>823</x>
         <y>228</y>
         <width>16</width>
         <height>21</height>
@@ -31007,7 +30952,7 @@ border: 0px solid black;
      <widget class="QLabel" name="label_492">
       <property name="geometry">
        <rect>
-        <x>730</x>
+        <x>740</x>
         <y>200</y>
         <width>91</width>
         <height>31</height>
@@ -31033,7 +30978,7 @@ border: 1px solid black;
      <widget class="QFrame" name="frame_409">
       <property name="geometry">
        <rect>
-        <x>120</x>
+        <x>130</x>
         <y>250</y>
         <width>20</width>
         <height>161</height>
@@ -31089,7 +31034,7 @@ border: 1px solid black;
      <widget class="QLabel" name="label_493">
       <property name="geometry">
        <rect>
-        <x>80</x>
+        <x>90</x>
         <y>330</y>
         <width>41</width>
         <height>21</height>
@@ -31108,7 +31053,7 @@ border: 1px solid black;
      <widget class="QLabel" name="label_494">
       <property name="geometry">
        <rect>
-        <x>310</x>
+        <x>319</x>
         <y>340</y>
         <width>31</width>
         <height>21</height>
@@ -31124,7 +31069,7 @@ border: 1px solid black;
      <widget class="QFrame" name="frame_410">
       <property name="geometry">
        <rect>
-        <x>310</x>
+        <x>320</x>
         <y>170</y>
         <width>20</width>
         <height>81</height>
@@ -31180,7 +31125,7 @@ border: 1px solid black;
      <widget class="QLabel" name="label_495">
       <property name="geometry">
        <rect>
-        <x>540</x>
+        <x>550</x>
         <y>430</y>
         <width>91</width>
         <height>31</height>
@@ -31206,7 +31151,7 @@ border: 1px solid black;
      <widget class="QLabel" name="label_496">
       <property name="geometry">
        <rect>
-        <x>540</x>
+        <x>550</x>
         <y>120</y>
         <width>91</width>
         <height>31</height>
@@ -31232,7 +31177,7 @@ border: 1px solid black;
      <widget class="QLabel" name="label_497">
       <property name="geometry">
        <rect>
-        <x>350</x>
+        <x>360</x>
         <y>340</y>
         <width>41</width>
         <height>21</height>
@@ -31251,7 +31196,7 @@ border: 1px solid black;
      <widget class="QFrame" name="frame_411">
       <property name="geometry">
        <rect>
-        <x>310</x>
+        <x>320</x>
         <y>300</y>
         <width>20</width>
         <height>181</height>
@@ -31307,7 +31252,7 @@ border: 1px solid black;
      <widget class="QFrame" name="frame_412">
       <property name="geometry">
        <rect>
-        <x>430</x>
+        <x>440</x>
         <y>260</y>
         <width>20</width>
         <height>61</height>
@@ -31363,7 +31308,7 @@ border: 1px solid black;
      <widget class="QFrame" name="frame_413">
       <property name="geometry">
        <rect>
-        <x>700</x>
+        <x>710</x>
         <y>513</y>
         <width>331</width>
         <height>20</height>
@@ -31422,7 +31367,7 @@ border: 1px solid black;
      <widget class="QLabel" name="label_498">
       <property name="geometry">
        <rect>
-        <x>696</x>
+        <x>706</x>
         <y>550</y>
         <width>16</width>
         <height>21</height>
@@ -31438,7 +31383,7 @@ border: 1px solid black;
      <widget class="QLabel" name="label_499">
       <property name="geometry">
        <rect>
-        <x>691</x>
+        <x>701</x>
         <y>458</y>
         <width>16</width>
         <height>21</height>
@@ -31454,7 +31399,7 @@ border: 1px solid black;
      <widget class="QPushButton" name="pushButton_174">
       <property name="geometry">
        <rect>
-        <x>560</x>
+        <x>570</x>
         <y>360</y>
         <width>41</width>
         <height>21</height>
@@ -31471,7 +31416,7 @@ border: 1px solid black;</string>
      <widget class="QFrame" name="frame_414">
       <property name="geometry">
        <rect>
-        <x>140</x>
+        <x>150</x>
         <y>360</y>
         <width>71</width>
         <height>20</height>
@@ -31530,7 +31475,7 @@ border: 1px solid black;</string>
      <widget class="QLabel" name="label_500">
       <property name="geometry">
        <rect>
-        <x>340</x>
+        <x>349</x>
         <y>360</y>
         <width>31</width>
         <height>21</height>
@@ -31546,7 +31491,7 @@ border: 1px solid black;</string>
      <widget class="QLabel" name="label_501">
       <property name="geometry">
        <rect>
-        <x>540</x>
+        <x>550</x>
         <y>390</y>
         <width>91</width>
         <height>31</height>
@@ -31572,8 +31517,8 @@ border: 1px solid black;
      <widget class="QLabel" name="label_502">
       <property name="geometry">
        <rect>
-        <x>980</x>
-        <y>460</y>
+        <x>990</x>
+        <y>462</y>
         <width>21</width>
         <height>41</height>
        </rect>
@@ -31588,7 +31533,7 @@ border: 1px solid black;
      <widget class="QFrame" name="frame_415">
       <property name="geometry">
        <rect>
-        <x>130</x>
+        <x>140</x>
         <y>240</y>
         <width>901</width>
         <height>20</height>
@@ -31647,7 +31592,7 @@ border: 1px solid black;
      <widget class="QFrame" name="frame_416">
       <property name="geometry">
        <rect>
-        <x>560</x>
+        <x>570</x>
         <y>250</y>
         <width>20</width>
         <height>71</height>
@@ -31703,7 +31648,7 @@ border: 1px solid black;
      <widget class="QLabel" name="label_503">
       <property name="geometry">
        <rect>
-        <x>566</x>
+        <x>576</x>
         <y>318</y>
         <width>16</width>
         <height>21</height>
@@ -31719,7 +31664,7 @@ border: 1px solid black;
      <widget class="QFrame" name="frame_417">
       <property name="geometry">
        <rect>
-        <x>450</x>
+        <x>460</x>
         <y>170</y>
         <width>20</width>
         <height>71</height>
@@ -31775,7 +31720,7 @@ border: 1px solid black;
      <widget class="QLabel" name="label_504">
       <property name="geometry">
        <rect>
-        <x>623</x>
+        <x>633</x>
         <y>483</y>
         <width>16</width>
         <height>21</height>
@@ -31791,8 +31736,8 @@ border: 1px solid black;
      <widget class="QLabel" name="label_505">
       <property name="geometry">
        <rect>
-        <x>220</x>
-        <y>460</y>
+        <x>230</x>
+        <y>462</y>
         <width>21</width>
         <height>41</height>
        </rect>
@@ -31807,7 +31752,7 @@ border: 1px solid black;
      <widget class="QLabel" name="label_506">
       <property name="geometry">
        <rect>
-        <x>280</x>
+        <x>290</x>
         <y>320</y>
         <width>41</width>
         <height>21</height>
@@ -31826,7 +31771,7 @@ border: 1px solid black;
      <widget class="QFrame" name="frame_418">
       <property name="geometry">
        <rect>
-        <x>930</x>
+        <x>940</x>
         <y>250</y>
         <width>20</width>
         <height>231</height>
@@ -31882,7 +31827,7 @@ border: 1px solid black;
      <widget class="QLabel" name="label_507">
       <property name="geometry">
        <rect>
-        <x>120</x>
+        <x>130</x>
         <y>320</y>
         <width>51</width>
         <height>21</height>
@@ -31898,7 +31843,7 @@ border: 1px solid black;
      <widget class="QPushButton" name="pushButton_175">
       <property name="geometry">
        <rect>
-        <x>330</x>
+        <x>340</x>
         <y>120</y>
         <width>41</width>
         <height>41</height>
@@ -31926,7 +31871,7 @@ border: 0px solid black;
      <widget class="QLabel" name="label_508">
       <property name="geometry">
        <rect>
-        <x>730</x>
+        <x>740</x>
         <y>160</y>
         <width>91</width>
         <height>31</height>
@@ -31952,7 +31897,7 @@ border: 1px solid black;
      <widget class="QFrame" name="frame_419">
       <property name="geometry">
        <rect>
-        <x>150</x>
+        <x>160</x>
         <y>472</y>
         <width>881</width>
         <height>20</height>
@@ -32011,7 +31956,7 @@ border: 1px solid black;
      <widget class="QLabel" name="label_509">
       <property name="geometry">
        <rect>
-        <x>720</x>
+        <x>730</x>
         <y>360</y>
         <width>41</width>
         <height>21</height>
@@ -32030,7 +31975,7 @@ border: 1px solid black;
      <widget class="QLabel" name="label_510">
       <property name="geometry">
        <rect>
-        <x>780</x>
+        <x>790</x>
         <y>467</y>
         <width>41</width>
         <height>71</height>
@@ -32046,7 +31991,7 @@ border: 1px solid black;
      <widget class="QLabel" name="label_511">
       <property name="geometry">
        <rect>
-        <x>840</x>
+        <x>850</x>
         <y>360</y>
         <width>41</width>
         <height>21</height>
@@ -32065,7 +32010,7 @@ border: 1px solid black;
      <widget class="QFrame" name="frame_420">
       <property name="geometry">
        <rect>
-        <x>410</x>
+        <x>420</x>
         <y>170</y>
         <width>20</width>
         <height>71</height>
@@ -32121,7 +32066,7 @@ border: 1px solid black;
      <widget class="QPushButton" name="pushButton_176">
       <property name="geometry">
        <rect>
-        <x>420</x>
+        <x>430</x>
         <y>120</y>
         <width>41</width>
         <height>41</height>
@@ -32149,7 +32094,7 @@ border: 0px solid black;
      <widget class="QLabel" name="label_512">
       <property name="geometry">
        <rect>
-        <x>590</x>
+        <x>600</x>
         <y>280</y>
         <width>41</width>
         <height>21</height>
@@ -32168,7 +32113,7 @@ border: 0px solid black;
      <widget class="QLabel" name="label_513">
       <property name="geometry">
        <rect>
-        <x>310</x>
+        <x>320</x>
         <y>210</y>
         <width>31</width>
         <height>21</height>
@@ -32184,7 +32129,7 @@ border: 0px solid black;
      <widget class="QLabel" name="label_514">
       <property name="geometry">
        <rect>
-        <x>560</x>
+        <x>570</x>
         <y>280</y>
         <width>31</width>
         <height>21</height>
@@ -32200,7 +32145,7 @@ border: 0px solid black;
      <widget class="QLabel" name="label_515">
       <property name="geometry">
        <rect>
-        <x>170</x>
+        <x>180</x>
         <y>380</y>
         <width>41</width>
         <height>21</height>
@@ -32219,7 +32164,7 @@ border: 0px solid black;
      <widget class="QLabel" name="label_516">
       <property name="geometry">
        <rect>
-        <x>460</x>
+        <x>470</x>
         <y>460</y>
         <width>31</width>
         <height>41</height>
@@ -32235,7 +32180,7 @@ border: 0px solid black;
      <widget class="QLabel" name="label_517">
       <property name="geometry">
        <rect>
-        <x>340</x>
+        <x>350</x>
         <y>210</y>
         <width>31</width>
         <height>21</height>
@@ -32251,7 +32196,7 @@ border: 0px solid black;
      <widget class="QLabel" name="label_518">
       <property name="geometry">
        <rect>
-        <x>560</x>
+        <x>570</x>
         <y>480</y>
         <width>41</width>
         <height>21</height>
@@ -32270,8 +32215,8 @@ border: 0px solid black;
      <widget class="QLabel" name="label_519">
       <property name="geometry">
        <rect>
-        <x>987</x>
-        <y>239</y>
+        <x>997</x>
+        <y>238</y>
         <width>21</width>
         <height>31</height>
        </rect>
@@ -32286,7 +32231,7 @@ border: 0px solid black;
      <widget class="QLabel" name="label_520">
       <property name="geometry">
        <rect>
-        <x>640</x>
+        <x>650</x>
         <y>500</y>
         <width>31</width>
         <height>31</height>
@@ -32310,7 +32255,7 @@ border: 0px solid black;
      <widget class="QFrame" name="frame_421">
       <property name="geometry">
        <rect>
-        <x>380</x>
+        <x>390</x>
         <y>330</y>
         <width>81</width>
         <height>20</height>
@@ -32369,7 +32314,7 @@ border: 0px solid black;
      <widget class="QLabel" name="label_521">
       <property name="geometry">
        <rect>
-        <x>640</x>
+        <x>650</x>
         <y>430</y>
         <width>61</width>
         <height>31</height>
@@ -32393,7 +32338,7 @@ border: 0px solid black;
      <widget class="QLabel" name="label_522">
       <property name="geometry">
        <rect>
-        <x>810</x>
+        <x>820</x>
         <y>430</y>
         <width>91</width>
         <height>31</height>
@@ -32419,7 +32364,7 @@ border: 1px solid black;
      <widget class="QFrame" name="frame_422">
       <property name="geometry">
        <rect>
-        <x>340</x>
+        <x>350</x>
         <y>320</y>
         <width>20</width>
         <height>161</height>
@@ -32475,7 +32420,7 @@ border: 1px solid black;
      <widget class="QLabel" name="label_523">
       <property name="geometry">
        <rect>
-        <x>930</x>
+        <x>940</x>
         <y>340</y>
         <width>31</width>
         <height>21</height>
@@ -32491,7 +32436,7 @@ border: 1px solid black;
      <widget class="QFrame" name="frame_423">
       <property name="geometry">
        <rect>
-        <x>350</x>
+        <x>360</x>
         <y>310</y>
         <width>91</width>
         <height>20</height>
@@ -32550,7 +32495,7 @@ border: 1px solid black;
      <widget class="QLabel" name="label_524">
       <property name="geometry">
        <rect>
-        <x>760</x>
+        <x>770</x>
         <y>130</y>
         <width>41</width>
         <height>21</height>
@@ -32569,7 +32514,7 @@ border: 1px solid black;
      <widget class="QLabel" name="label_525">
       <property name="geometry">
        <rect>
-        <x>810</x>
+        <x>820</x>
         <y>390</y>
         <width>91</width>
         <height>31</height>
@@ -32595,7 +32540,7 @@ border: 1px solid black;
      <widget class="QPushButton" name="pushButton_177">
       <property name="geometry">
        <rect>
-        <x>930</x>
+        <x>940</x>
         <y>503</y>
         <width>31</width>
         <height>31</height>
@@ -32622,7 +32567,7 @@ border: 0px solid black;</string>
      <widget class="QLabel" name="label_526">
       <property name="geometry">
        <rect>
-        <x>640</x>
+        <x>650</x>
         <y>160</y>
         <width>61</width>
         <height>31</height>
@@ -32646,7 +32591,7 @@ border: 0px solid black;</string>
      <widget class="QLabel" name="label_527">
       <property name="geometry">
        <rect>
-        <x>960</x>
+        <x>970</x>
         <y>340</y>
         <width>41</width>
         <height>21</height>
@@ -32665,7 +32610,7 @@ border: 0px solid black;</string>
      <widget class="QFrame" name="frame_424">
       <property name="geometry">
        <rect>
-        <x>410</x>
+        <x>420</x>
         <y>260</y>
         <width>20</width>
         <height>41</height>
@@ -32721,7 +32666,7 @@ border: 0px solid black;</string>
      <widget class="QLabel" name="label_528">
       <property name="geometry">
        <rect>
-        <x>387</x>
+        <x>397</x>
         <y>224</y>
         <width>41</width>
         <height>21</height>
@@ -32740,7 +32685,7 @@ border: 0px solid black;</string>
      <widget class="QPushButton" name="pushButton_178">
       <property name="geometry">
        <rect>
-        <x>1040</x>
+        <x>1050</x>
         <y>230</y>
         <width>41</width>
         <height>41</height>
@@ -32768,7 +32713,7 @@ border: 0px solid black;
      <widget class="QLabel" name="label_529">
       <property name="geometry">
        <rect>
-        <x>210</x>
+        <x>220</x>
         <y>362</y>
         <width>21</width>
         <height>16</height>
@@ -32784,7 +32729,7 @@ border: 0px solid black;
      <widget class="QFrame" name="frame_425">
       <property name="geometry">
        <rect>
-        <x>861</x>
+        <x>871</x>
         <y>237</y>
         <width>20</width>
         <height>12</height>
@@ -32840,7 +32785,7 @@ border: 0px solid black;
      <widget class="QLabel" name="label_530">
       <property name="geometry">
        <rect>
-        <x>540</x>
+        <x>550</x>
         <y>160</y>
         <width>91</width>
         <height>31</height>
@@ -32866,7 +32811,7 @@ border: 1px solid black;
      <widget class="QLabel" name="label_531">
       <property name="geometry">
        <rect>
-        <x>690</x>
+        <x>700</x>
         <y>430</y>
         <width>91</width>
         <height>31</height>
@@ -32892,7 +32837,7 @@ border: 1px solid black;
      <widget class="QLabel" name="label_532">
       <property name="geometry">
        <rect>
-        <x>210</x>
+        <x>220</x>
         <y>490</y>
         <width>41</width>
         <height>21</height>
@@ -32911,7 +32856,7 @@ border: 1px solid black;
      <widget class="QFrame" name="frame_426">
       <property name="geometry">
        <rect>
-        <x>130</x>
+        <x>140</x>
         <y>370</y>
         <width>20</width>
         <height>51</height>
@@ -32967,7 +32912,7 @@ border: 1px solid black;
      <widget class="QLabel" name="label_533">
       <property name="geometry">
        <rect>
-        <x>170</x>
+        <x>180</x>
         <y>350</y>
         <width>21</width>
         <height>41</height>
@@ -32983,7 +32928,7 @@ border: 1px solid black;
      <widget class="QLabel" name="label_534">
       <property name="geometry">
        <rect>
-        <x>564</x>
+        <x>574</x>
         <y>327</y>
         <width>16</width>
         <height>31</height>
@@ -33001,7 +32946,7 @@ border: 1px solid black;
      <widget class="QLabel" name="label_535">
       <property name="geometry">
        <rect>
-        <x>370</x>
+        <x>379</x>
         <y>380</y>
         <width>31</width>
         <height>21</height>
@@ -33017,7 +32962,7 @@ border: 1px solid black;
      <widget class="QPushButton" name="pushButton_179">
       <property name="geometry">
        <rect>
-        <x>300</x>
+        <x>310</x>
         <y>120</y>
         <width>41</width>
         <height>41</height>
@@ -33045,7 +32990,7 @@ border: 0px solid black;
      <widget class="QLabel" name="label_536">
       <property name="geometry">
        <rect>
-        <x>400</x>
+        <x>410</x>
         <y>370</y>
         <width>41</width>
         <height>21</height>
@@ -33064,7 +33009,7 @@ border: 0px solid black;
      <widget class="QFrame" name="frame_427">
       <property name="geometry">
        <rect>
-        <x>370</x>
+        <x>380</x>
         <y>340</y>
         <width>20</width>
         <height>141</height>
@@ -33120,7 +33065,7 @@ border: 0px solid black;
      <widget class="QLabel" name="label_537">
       <property name="geometry">
        <rect>
-        <x>280</x>
+        <x>290</x>
         <y>190</y>
         <width>41</width>
         <height>21</height>
@@ -33139,7 +33084,7 @@ border: 0px solid black;
      <widget class="QLabel" name="label_538">
       <property name="geometry">
        <rect>
-        <x>980</x>
+        <x>990</x>
         <y>210</y>
         <width>41</width>
         <height>21</height>
@@ -33158,7 +33103,7 @@ border: 0px solid black;
      <widget class="QLabel" name="label_539">
       <property name="geometry">
        <rect>
-        <x>570</x>
+        <x>580</x>
         <y>90</y>
         <width>41</width>
         <height>21</height>
@@ -33177,7 +33122,7 @@ border: 0px solid black;
      <widget class="QPushButton" name="pushButton_180">
       <property name="geometry">
        <rect>
-        <x>860</x>
+        <x>870</x>
         <y>220</y>
         <width>21</width>
         <height>21</height>
@@ -33204,7 +33149,7 @@ border: 0px solid black;</string>
      <widget class="QLabel" name="label_540">
       <property name="geometry">
        <rect>
-        <x>350</x>
+        <x>360</x>
         <y>190</y>
         <width>41</width>
         <height>21</height>
@@ -33223,7 +33168,7 @@ border: 0px solid black;</string>
      <widget class="QLabel" name="label_541">
       <property name="geometry">
        <rect>
-        <x>870</x>
+        <x>880</x>
         <y>530</y>
         <width>41</width>
         <height>21</height>
@@ -33242,7 +33187,7 @@ border: 0px solid black;</string>
      <widget class="QLabel" name="label_542">
       <property name="geometry">
        <rect>
-        <x>120</x>
+        <x>130</x>
         <y>400</y>
         <width>41</width>
         <height>101</height>
@@ -33253,6 +33198,166 @@ border: 0px solid black;</string>
       </property>
       <property name="pixmap">
        <pixmap>pics/Screenshot_91.png</pixmap>
+      </property>
+     </widget>
+     <zorder>frame_427</zorder>
+     <zorder>frame_411</zorder>
+     <zorder>frame_422</zorder>
+     <zorder>frame_405</zorder>
+     <zorder>pushButton_12</zorder>
+     <zorder>pushButton_13</zorder>
+     <zorder>label_476</zorder>
+     <zorder>label_477</zorder>
+     <zorder>frame_403</zorder>
+     <zorder>label_478</zorder>
+     <zorder>label_479</zorder>
+     <zorder>frame_404</zorder>
+     <zorder>label_480</zorder>
+     <zorder>label_481</zorder>
+     <zorder>frame_406</zorder>
+     <zorder>pushButton_171</zorder>
+     <zorder>frame_407</zorder>
+     <zorder>label_482</zorder>
+     <zorder>frame_408</zorder>
+     <zorder>label_483</zorder>
+     <zorder>label_484</zorder>
+     <zorder>pushButton_172</zorder>
+     <zorder>label_485</zorder>
+     <zorder>label_486</zorder>
+     <zorder>label_487</zorder>
+     <zorder>pushButton_173</zorder>
+     <zorder>label_488</zorder>
+     <zorder>label_489</zorder>
+     <zorder>label_490</zorder>
+     <zorder>label_491</zorder>
+     <zorder>label_492</zorder>
+     <zorder>frame_409</zorder>
+     <zorder>label_493</zorder>
+     <zorder>label_494</zorder>
+     <zorder>frame_410</zorder>
+     <zorder>label_495</zorder>
+     <zorder>label_496</zorder>
+     <zorder>label_497</zorder>
+     <zorder>frame_412</zorder>
+     <zorder>frame_413</zorder>
+     <zorder>label_498</zorder>
+     <zorder>label_499</zorder>
+     <zorder>pushButton_174</zorder>
+     <zorder>frame_414</zorder>
+     <zorder>label_500</zorder>
+     <zorder>label_501</zorder>
+     <zorder>frame_415</zorder>
+     <zorder>frame_416</zorder>
+     <zorder>label_503</zorder>
+     <zorder>frame_417</zorder>
+     <zorder>label_504</zorder>
+     <zorder>label_506</zorder>
+     <zorder>frame_418</zorder>
+     <zorder>label_507</zorder>
+     <zorder>pushButton_175</zorder>
+     <zorder>label_508</zorder>
+     <zorder>frame_419</zorder>
+     <zorder>label_509</zorder>
+     <zorder>label_510</zorder>
+     <zorder>label_511</zorder>
+     <zorder>frame_420</zorder>
+     <zorder>pushButton_176</zorder>
+     <zorder>label_512</zorder>
+     <zorder>label_513</zorder>
+     <zorder>label_514</zorder>
+     <zorder>label_515</zorder>
+     <zorder>label_516</zorder>
+     <zorder>label_517</zorder>
+     <zorder>label_518</zorder>
+     <zorder>label_519</zorder>
+     <zorder>label_520</zorder>
+     <zorder>frame_421</zorder>
+     <zorder>label_521</zorder>
+     <zorder>label_522</zorder>
+     <zorder>label_523</zorder>
+     <zorder>frame_423</zorder>
+     <zorder>label_524</zorder>
+     <zorder>label_525</zorder>
+     <zorder>pushButton_177</zorder>
+     <zorder>label_526</zorder>
+     <zorder>label_527</zorder>
+     <zorder>frame_424</zorder>
+     <zorder>label_528</zorder>
+     <zorder>pushButton_178</zorder>
+     <zorder>label_529</zorder>
+     <zorder>frame_425</zorder>
+     <zorder>label_530</zorder>
+     <zorder>label_531</zorder>
+     <zorder>label_532</zorder>
+     <zorder>frame_426</zorder>
+     <zorder>label_533</zorder>
+     <zorder>label_534</zorder>
+     <zorder>label_535</zorder>
+     <zorder>pushButton_179</zorder>
+     <zorder>label_536</zorder>
+     <zorder>label_537</zorder>
+     <zorder>label_538</zorder>
+     <zorder>label_539</zorder>
+     <zorder>pushButton_180</zorder>
+     <zorder>label_540</zorder>
+     <zorder>label_541</zorder>
+     <zorder>label_542</zorder>
+     <zorder>pushButton_170</zorder>
+     <zorder>label_502</zorder>
+     <zorder>label_505</zorder>
+    </widget>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>testing connections</string>
+     </attribute>
+     <widget class="QLabel" name="label_407">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>90</y>
+        <width>131</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: white;
+border: 1px solid black;
+</string>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_408">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>60</y>
+        <width>171</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>Testing connection</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
       </property>
      </widget>
     </widget>

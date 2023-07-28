@@ -6510,7 +6510,7 @@ border: 1px solid black;
       <property name="geometry">
        <rect>
         <x>690</x>
-        <y>240</y>
+        <y>260</y>
         <width>141</width>
         <height>51</height>
        </rect>
@@ -6523,7 +6523,7 @@ border: 1px solid black;
       <property name="geometry">
        <rect>
         <x>690</x>
-        <y>320</y>
+        <y>400</y>
         <width>161</width>
         <height>21</height>
        </rect>
@@ -6536,7 +6536,7 @@ border: 1px solid black;
       <property name="geometry">
        <rect>
         <x>730</x>
-        <y>350</y>
+        <y>430</y>
         <width>101</width>
         <height>31</height>
        </rect>
@@ -6546,7 +6546,7 @@ border: 1px solid black;
       <property name="geometry">
        <rect>
         <x>690</x>
-        <y>430</y>
+        <y>510</y>
         <width>141</width>
         <height>51</height>
        </rect>
@@ -6559,7 +6559,7 @@ border: 1px solid black;
       <property name="geometry">
        <rect>
         <x>690</x>
-        <y>340</y>
+        <y>420</y>
         <width>71</width>
         <height>31</height>
        </rect>
@@ -6572,7 +6572,7 @@ border: 1px solid black;
       <property name="geometry">
        <rect>
         <x>690</x>
-        <y>380</y>
+        <y>460</y>
         <width>71</width>
         <height>31</height>
        </rect>
@@ -6585,7 +6585,7 @@ border: 1px solid black;
       <property name="geometry">
        <rect>
         <x>730</x>
-        <y>390</y>
+        <y>470</y>
         <width>101</width>
         <height>31</height>
        </rect>
@@ -6595,13 +6595,39 @@ border: 1px solid black;
       <property name="geometry">
        <rect>
         <x>690</x>
+        <y>220</y>
+        <width>141</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Update (signed)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="geometry">
+       <rect>
+        <x>690</x>
         <y>180</y>
+        <width>141</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Update (unsigned)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="geometry">
+       <rect>
+        <x>690</x>
+        <y>320</y>
         <width>141</width>
         <height>51</height>
        </rect>
       </property>
       <property name="text">
-       <string>Make table updatable</string>
+       <string>Stop updating table</string>
       </property>
      </widget>
     </widget>

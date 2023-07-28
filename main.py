@@ -33,7 +33,7 @@ def connect_to_plc():
                                  baudrate=19200, parity=serial.PARITY_NONE,
                                  stopbits=serial.STOPBITS_ONE, bytesize=serial.EIGHTBITS,
                                  timeout=5)
-        client.connect()
+        print(client.connect())
         timer.start(1000)  # Start the timer for updating label_407
     except Exception as e:
         print("Error connecting to PLC:", str(e))
@@ -70,3 +70,8 @@ if __name__ == '__main__':
     timer.timeout.connect(partial(tag_reading.update_labels, client, form))
 
     app.exec()
+
+    time.sleep(1)
+    print("[INFO] Trying to close the session")
+    client.close()
+    print("[INFO] Session has been closed")
